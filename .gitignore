@@ -1,0 +1,27 @@
+# Vivado junk
+*.log
+*.jou
+*.str
+*.wdb
+*.xml
+*.html
+
+# Vivado project-generated dirs
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr
+.Xil/
+
+# Bitstreams / build outputs
+*.bit
+*.bin
+*.mcs
+
+# Editor stuff
+*~
+.vscode/
+.idea/
