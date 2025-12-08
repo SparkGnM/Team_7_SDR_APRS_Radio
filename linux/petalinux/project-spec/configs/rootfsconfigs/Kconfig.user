@@ -1,0 +1,22 @@
+menu "user packages " 
+config gpio-demo  
+	 bool "gpio-demo"
+	 help
+	
+config peekpoke  
+	 bool "peekpoke"
+	 help
+	
+config sdrdaemon  
+	 bool "sdrdaemon"
+	 help
+	
+config sdrrx  
+	 bool "sdrrx"
+	 help
+	
+config sdrtools  
+	 bool "sdrtools"
+	 help
+	
+endmenu
