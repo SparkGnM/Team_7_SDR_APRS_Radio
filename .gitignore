@@ -1,27 +1,49 @@
-# Vivado junk
-*.log
+# ==========================
+# Vivado build outputs
+# ==========================
 *.jou
+*.log
 *.str
-*.wdb
+*.cache/
+*.sim/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.Xil/
+*.srcs/**/bd/*/hdl/
+*.gen/
+*.data/
+
+# Vivado IP / auto stuff
 *.xml
 *.html
 
-# Vivado project-generated dirs
-*.cache/
-*.hw/
-*.ip_user_files/
-*.runs/
-*.sim/
-*.srcs/
-*.xpr
-.Xil/
+# block design generated junk
+*.bd
+*.dcp
 
-# Bitstreams / build outputs
-*.bit
+# allow TCL export of BD
+!**/block_design/*.tcl
+
+# ==========================
+# PetaLinux
+# ==========================
+build/
+images/
+pre-built/
+tmp/
+components/
+*.elf
 *.bin
+*.bit
+*.ub
 *.mcs
 
-# Editor stuff
+# ==========================
+# OS junk
+# ==========================
+__pycache__/
+*.swp
+*.swo
+*.pyc
 *~
-.vscode/
-.idea/
